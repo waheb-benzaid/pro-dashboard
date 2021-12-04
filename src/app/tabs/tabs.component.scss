@@ -19,6 +19,8 @@
   }
 }
 
+//styles for the tab title background 'shape'
+
 .tab-title::before {
   content: "";
   position: absolute;
@@ -33,7 +35,9 @@
 
 .tab {
   position: relative;
+  text-decoration: none;
   z-index: 1;
+  color: black;
 }
 
 .bookmarks-tab .tab-title::before {
